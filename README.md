@@ -1,6 +1,6 @@
 # Stock Price Prediction using LSTM
 
-This project aims to predict stock prices with higher accuracy using the Long Short-Term Memory (LSTM) algorithm. We have fetched real-time data from the `yfinance` library and employed Mean Absolute Error (MAE) as the metric and Adam optimizer for training the model.
+This project aims to predict stock prices with higher accuracy using the Long Short-Term Memory (LSTM). I have fetched real-time data from the `yfinance` library and employed Mean Absolute Error (MAE) as the metric and Adam optimizer for training the model.
 
 ## Table of Contents
 
@@ -12,7 +12,6 @@ This project aims to predict stock prices with higher accuracy using the Long Sh
 - [Model Architecture](#model-architecture)
 - [Evaluation](#evaluation)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
@@ -21,9 +20,9 @@ Stock price prediction is a critical task in the financial industry, with applic
 
 In recent years, machine learning and deep learning techniques have shown great promise in improving the accuracy of stock price predictions. Among these techniques, Long Short-Term Memory (LSTM) networks, a type of recurrent neural network (RNN), have proven particularly effective for time-series forecasting tasks due to their ability to learn and remember long-term dependencies.
 
-In this project, we utilize LSTM networks to predict future stock prices based on historical data. We leverage the `yfinance` library to fetch real-time stock data, ensuring that our model is trained on up-to-date information. The LSTM model is trained using the Adam optimizer, which is known for its efficiency and effectiveness in training deep learning models. We evaluate the performance of our model using Mean Absolute Error (MAE), a widely used metric for regression tasks that measures the average magnitude of errors between predicted and actual values.
+In this project, I have utilized LSTM networks to predict future stock prices based on historical data. Leveraging the `yfinance` library to fetch real-time stock data, ensuring that our model is trained on up-to-date information. The LSTM model is trained using the Adam optimizer, which is known for its efficiency and effectiveness in training deep learning models. Evaluation of performance of the model has been done using Mean Absolute Error (MAE), a widely used metric for regression tasks that measures the average magnitude of errors between predicted and actual values.
 
-By the end of this project, we aim to provide a robust and accurate model for stock price prediction that can be used by traders, investors, and financial analysts to make informed decisions. This project also serves as an example of how advanced machine learning techniques can be applied to real-world financial data to solve complex problems.
+By the end of this project, my aim is to provide a robust and accurate model for stock price prediction that can be used by traders, investors, and financial analysts to make informed decisions. This project also serves as an example of how advanced machine learning techniques can be applied to real-world financial data to solve complex problems.
 
 ## Getting Started
 
@@ -169,9 +168,6 @@ The model is evaluated using the Mean Absolute Error (MAE) metric. The Adam opti
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or new features.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
